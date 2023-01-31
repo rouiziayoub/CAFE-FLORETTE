@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 17px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.logo,
+.menu {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu {
+  float: right;
+}
+
+.menu .menu-list .menu-list-item {
+  display: inline;
+}
+
+.menu .menu-list .menu-list-item .menu-list-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 25px;
+  vertical-align: middle;
+}
+
+.menu .menu-list .menu-list-item .menu-list-link:hover,
+.active {
+  background-color: #444;
+}
+
+/* Hero */
+
+.hero {
+  background-image: url("image/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero .hero-content {
+  width: 550px;
+  margin: auto;
+  padding-top: 150px;
+}
+
+.hero .hero-content .hero-title {
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.separator {
+  width: 100px;
+  height: 10px;
+  background-color: #333;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.hero .hero-content .hero-text {
+  font-size: 1.1em;
+  line-height: 1.8em;
+  letter-spacing: 0.031em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.infos-cup,
+.infos-clock {
+  display: inline-block;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.infos-content {
+  width: 700px;
+  margin: auto;
+  padding: 70px 0;
+}
+
+.infos-content .bi {
+  font-size: 2.2em;
+}
+
+.infos-content h3 {
+  font-size: 1.6em;
+}
+
+.img-back {
+  background-image: url("image/person.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.booking .booking-content {
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.booking-title {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.btn-dark {
+  border-radius: 50px;
+  padding: 15px 25px;
+  border: none;
+  color: white;
+  background-color: #333;
+  margin-top: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-dark:hover {
+  background-color: white;
+  color: #333;
+  outline: #333 solid;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  color: white;
+  padding: 30px 0;
+  font-weight: 500;
+}
+
+.maping .map-link,
+.maping .map-infos {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.maping {
+  width: 800px;
+  margin: 150px auto;
+}
+
+.map-link {
+  margin-right: 40px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.map-infos h4 {
+  border-bottom: 0.5px solid Black;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.map-infos h4 p {
+  font-weight: bold;
+}
+
+span {
+  padding: 3px 8px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.pink {
+  background-color: #be418c;
+}
+
+.brown {
+  background-color: #8c5e24;
+}
