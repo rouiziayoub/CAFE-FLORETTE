@@ -5,37 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAFE FLORETTE</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Café Florette | Accueil</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-
         <div class="logo">
-            <h1> CAFE FLORETTE</h1>
+            <h2 class="uppercase">cafe florette</h2>
         </div>
-        <nav>
-
-            <ul>
-                <li class="list"><a href="#">Aucceil</a></li>
-                <li class="list"><a href="#"> Nous trouver</a></li>
-                <li class="list"><a href="#"> COntact</a></li>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="menu-list-item">
+                    <a href="index.html" class="menu-list-link active">Accueil</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="where.html" class="menu-list-link">Nous trouver</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="contact.html" class="menu-list-link">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section>
-            <h2> Toute l'exportise française dans un café</h2>
-            <article>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod assumenda, doloribus voluptatibus
-                    fugit doloremque accusantium! Repudiandae suscipit rem minus rerum eos architecto doloribus sint
-                    molestias officia beatae! Necessitatibus, odio quos!</p>
-                <BUtton>Decouvrir</BUtton>
-            </article>
-            <div> Icon font</div>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title ">Toute l'expertise française dans un café</h1>
+                <div class="separator"></div>
+                <p class="hero-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempore, asperiores optio sit
+                    id, iusto eligendi corrupti ipsam doloremque voluptate nisi voluptas architecto consequuntur
+                    molestiae.
+                </p>
+                <a href="#">
+                    <button class="btn uppercase">Découvrir</button>
+                </a>
+            </div>
+        </section>
+        <section class="infos">
+            <div class="infos-content">
+                <div class="infos-cup">
+                    <i class="bi bi-cup-fill"></i>
+                    <h3>Un nouveau café par jour</h3>
+                </div>
+                <div class="infos-clock">
+                    <i class="bi bi-clock-fill"></i>
+                    <h3>Ouvert 24h/24 7j/7</h3>
+                </div>
+            </div>
+        </section>
+        <section class="img-back"></section>
+        <section class="booking">
+            <div class="booking-content">
+                <h3 class="booking-title">Réservez dès maintenant</h3>
+                <p class="booking-content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fiure
+                    necessitatibus accusamus quis dolorum molestiae quidem eius excepturi cupiditate aspernatur.</p>
+                <a href="#">
+                    <button class="btn-dark uppercase">Réserver</button>
+                </a>
+            </div>
         </section>
     </main>
+    <footer>
+        <p>Copyright &copy; - Florette 2023</p>
+    </footer>
 </body>
 
 </html>
